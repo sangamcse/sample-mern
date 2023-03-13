@@ -1,0 +1,33 @@
+{
+  "name": "mern_sample",
+  "version": "0.1.0",
+  "description": "Sample MERN Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "mongodb-memory-server": "8.12.0",
+    "mongoose": "7.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-loader": "4.13.1",
+    "react-redux": "8.0.5",
+    "react-router": "6.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.21.0",
+    "@babel/preset-env": "7.20.2",
+    "@babel/preset-react": "7.18.6",
+    "@hot-loader/react-dom": "17.0.2",
+    "babel-loader": "9.1.2",
+    "nodemon": "2.0.21",
+    "webpack": "5.76.1",
+    "webpack-cli": "5.0.1",
+    "webpack-dev-middleware": "6.0.1",
+    "webpack-hot-middleware": "2.25.3",
+    "webpack-node-externals": "3.0.0"
+  }
+}
